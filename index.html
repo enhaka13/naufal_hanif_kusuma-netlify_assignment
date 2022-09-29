@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Naufal - Profile</title>
+  </head>
+
+  <body class="mx-28">
+    <section id="general-profile">
+      <div class="flex flex-row mx-24 mt-28 mb-20 items-center">
+        <div class="basis-1/2">
+          <h1 class="text-6xl font-bold mb-3">Naufal Hanif Kusuma</h1>
+          <h3 class="text-3xl font-medium italic mb-16">
+            <em>Back-End Engineering Junior</em>
+          </h3>
+          <a
+            href="https://www.linkedin.com/in/naufalhanifkusuma/"
+            target="_blank"
+            class="linked-in-button"
+          >
+            Linked-in account
+          </a>
+        </div>
+        <div class="basis-1/2 flex justify-end">
+          <img
+            src="/src/IMG20220702145650.jpg"
+            height="400px"
+            alt="profile-picture"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="brief-description">
+      <h2 class="text-3xl font-bold mb-3">Ringkasan</h2>
+      <p class="text-xl text-justify mb-16 sm:text-left">
+        Seorang mahasiswa di prodi Kimia Institut Teknologi Bandung dengan
+        pengalaman profesional di bidang desain UI/UX selama 4 tahun. Di bidang
+        kimia, telah terbiasa melakukan prosedural lab seperti sintesis,
+        isolasi, dan karakterisasi senyawa. Selain itu, memiliki pengalaman
+        penelitian dan magang di bidang kimia-perminyakan yaitu di bidang
+        Enhanced Oil Recovery (EOR) di Pertamina Research & Technology
+        Innovation (RTI) Pulogadung, Jakarta. Di bidang desain UI/UX, telah
+        menciptakan beberapa desain antarmuka yang diimplementasikan dalam
+        bentuk website dan aplikasi.
+      </p>
+    </section>
+
+    <section id="highlighted-skills">
+      <h2 class="text-3xl font-bold mb-6">Highlighted Skills</h2>
+      <div class="grid grid-cols-3 gap-4 mb-16">
+        <div class="grid-item">Front-End Development</div>
+        <div class="grid-item">Back-End Development</div>
+        <div class="grid-item">UI/UX Design</div>
+      </div>
+    </section>
+
+    <section id="experiences">
+      <h2 class="text-3xl font-bold mb-3">Pengalaman Kerja & Magang</h2>
+      <ol class="text-xl text-justify mb-16">
+        <li>
+          - Asisten Peneliti di Oil and Gas Recovery for Indonesia ITB –
+          Bandung, Indonesia (2022)
+        </li>
+        <li>
+          - Asisten Peneliti di Pertamina Research and Technology Innovation –
+          Jakarta, Indonesia (2022)
+        </li>
+        <li>
+          - Magang Kuliah Praktek Pertamina Research and Technology Innovation –
+          Jakarta, Indonesia (2022)
+        </li>
+        <li>
+          - Web Developer di Himpunan Kimia Indonesia (HKI) – Malang, Indonesia
+          (2022)
+        </li>
+        <li>
+          - Web Developer di The Joint Conference on Research in Chemistry and
+          Chemical Education (JCRCCE) – Bandung, Indonesia (2022)
+        </li>
+        <li>- UI/UX Designer di Gamifylearn – Bandung, Indonesia (2021)</li>
+        <li>- UI UX Designer di Sky Apps – Bandung, Indonesia (2021)</li>
+        <li>
+          - Graphic Designer di Pemilu IA ITB Jawa Barat – Bandung, Indonesia
+          (2021)
+        </li>
+        <li>- UI/UX Designer di Meat Shop – Kairo, Mesir (2020)</li>
+      </ol>
+    </section>
+
+    <section id="academic-background">
+      <h2 class="text-3xl font-bold mb-3">Jenjang Pendidikan</h2>
+      <ol class="text-xl text-justify mb-16">
+        <li>SD Muhammadiyah 1 Samarinda (2007 - 2013)</li>
+        <li>SMPIT Cordova Samarinda (2013 - 2016)</li>
+        <li>SMAN 10 Samarinda (2016 - 2019)</li>
+        <li>Institut Teknologi Bandung (2019)</li>
+      </ol>
+    </section>
+
+    <section id="contact-form">
+      <form class="m-0">
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="inline-full-name"
+            >
+              Full Name
+            </label>
+          </div>
+          <div class="md:w-2/3">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-full-name"
+              type="text"
+              value="Jane Doe"
+            />
+          </div>
+        </div>
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="inline-password"
+            >
+              Password
+            </label>
+          </div>
+          <div class="md:w-2/3">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-password"
+              type="password"
+              placeholder="******************"
+            />
+          </div>
+        </div>
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3"></div>
+          <label class="md:w-2/3 block text-gray-500 font-bold">
+            <input class="mr-2 leading-tight" type="checkbox" />
+            <span class="text-sm"> Send me your newsletter! </span>
+          </label>
+        </div>
+        <div class="md:flex md:items-center">
+          <div class="md:w-1/3"></div>
+          <div class="md:w-2/3">
+            <button
+              class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+              type="button"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- <section id="contact-form">
+      <h2 class="text-3xl font-bold mb-3">Ingin berkenalan?</h2>
+      <form action=""></form>
+      <label for="full-name">Nama lengkap</label><br /><br />
+      <input type="text" name="full-name" id="full-name" /><br />
+      <label for="email">Alamat email</label><br /><br />
+      <input type="text" name="email" id="email" /><br />
+      <input type="submit" name="submit" id="submit" value="Hubungi Saya" />
+    </section> -->
+  </body>
+</html>

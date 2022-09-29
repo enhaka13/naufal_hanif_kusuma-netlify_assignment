@@ -1,0 +1,34 @@
+body {
+    /* margin: 50px 100px; */
+    font-family: Quicksand, sans-serif;
+    color: #34231f;
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.linked-in-button {
+    font-size: larger;
+    text-decoration: none;
+    cursor: pointer;
+    color: blanchedalmond;
+    background-color: #34231f;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.grid-item {
+    font-weight: 600;
+    color: blanchedalmond;
+    background-color: #34231f;
+    text-align: center;
+    padding: 50px 0px;
+    font-size: larger;
+    border-radius: 5px;
+    font-family: 22px;
+}
